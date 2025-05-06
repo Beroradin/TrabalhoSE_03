@@ -39,6 +39,9 @@ Utilizou-se a placa BitDogLab (que possui o microcontrolador RP2040) para a exib
 - As tarefas possuem prioridades de número igual;
 
 ## :eyes: Observações
+- Foi necessário a utilização da biblioteca do freeRTOS
+- Foi necessário a eventual configuração do diretório da biblioteca no CMakeLists.txt
+- O PICO SDK utilizado foi o 2.1.0
 
 ## :camera: GIF mostrando o funcionamento do programa na placa BitDogLab
 <p align="center">
